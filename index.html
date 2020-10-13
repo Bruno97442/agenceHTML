@@ -6,18 +6,23 @@
     <title>Voyage CDA</title>
 </head>
 <body>
+
+  <!-- Nav -->
   <header>
     <table >
         <thead>
             <tr>
                 <th><img src="img/logo.svg" align=”top” width='200px' alt=""></th>
                 <th width = "500px" ><font face="Arial, Helvetica"><h1>Voyage CDA</h1></font></th>
-                <th  width = "200px" ><font color ="black" face="Arial, Helvetica"><a href="Accueil"> <p>Accueil</p</a></font></th>
-                <th width = "200px" ><font color ="black" face="Arial, Helvetica"><a href="Destination"><p>Destination</p</a></font></th>
-                <th width = "200px"><font color ="black" face="Arial, Helvetica"><a href="Destination"></a><a href="A_propos"><p>A propos</p</a></font></th>
-                <th width = "200px"><font color ="black" face="Arial, Helvetica"><a href="Contact"><p>Contact</p</a></font></th>
+                <th  width = "200px" ><font color ="black" face="Arial, Helvetica"><a href="index.html"> <p>Accueil</p</a></font></th>
+                <th width = "200px" ><font color ="black" face="Arial, Helvetica"><a href="destination.html"><p>Destination</p</a></font></th>
+                <th width = "200px"><font color ="black" face="Arial, Helvetica"><a href="#section"><p>A propos</p</a></font></th>
+                <th width = "200px"><font color ="black" face="Arial, Helvetica"><a href=" Contact"><p>Contact</p</a></font></th>
             </tr>
     </table>
+  <!-- Fin Nav -->
+
+  <!-- Slider Embarquement immédiat -->
     <table background="img/embarquement.gif"width="1500" height="500">
         <thead>
             <tr>
@@ -30,7 +35,9 @@
 
 </table>
 </header>
-
+  <!-- Fin Slider Embarquement immédiat -->
+  
+  <!-- Destinations -->
 <section>    
     <table>
         <center><h2>DESTINATION</h2></center>
@@ -64,7 +71,9 @@
 <center><h2>A PROPOS</h2></center>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa quas, commodi obcaecati rerum voluptas, adipisci eos optio nisi tempora aspernatur exercitationem earum, reiciendis harum nam natus numquam sint ut magnam labore voluptatibus vero nemo maiores? Eveniet voluptatem ad voluptate incidunt cupiditate ex praesentium fugit, nostrum autem nulla quasi consequuntur. Odit fuga hic facilis tenetur accusamus, tempore ut veritatis quae dolorem ipsam possimus id recusandae officiis nisi excepturi in suscipit ipsa nobis quisquam numquam. Voluptatibus expedita, ipsa vero soluta dolor ipsam quae aliquam voluptate, molestiae dolorem natus ea doloremque architecto maiores illum suscipit harum! Recusandae, velit dolorem! Quam optio aperiam nam distinctio rem ab itaque dicta cupiditate eius corporis hic neque perspiciatis aliquam sunt harum libero nemo quos odio explicabo nisi, necessitatibus iure error maxime? Neque, dolorum deleniti dicta tempore tempora suscipit obcaecati aliquam harum aspernatur exercitationem earum voluptatum quae id dolores quisquam voluptates odio. Temporibus itaque, illo suscipit minima debitis ex! Rem, repellat, iusto deleniti ex laboriosam expedita ducimus optio voluptatum minima perspiciatis officiis ad aperiam quis officia eum suscipit totam assumenda? Odit ratione tenetur blanditiis maxime magnam explicabo fugiat laudantium, aliquam quos! Saepe dignissimos officiis libero voluptates, praesentium suscipit tempora cumque reiciendis quas rem aut aperiam sit qui autem.</p>
 </article>
+  <!-- Fin Destinations -->
 
+  <!-- A propos -->
 <div>
 <table>
     <thead>
@@ -90,6 +99,65 @@
       </tr>
     </tbody>
   </table>
-</div>   
+</div> 
+  <!-- A propos -->
+
+  <!-- Contact -->
+<tr>
+  <th colspan="5">
+      <h2 align="center" id="destination">CONTACT</h2>
+  </th>
+</tr>
+<tr align="center">
+  <form action="" method="GET">
+      <table align="center">
+          <tbody>
+              <tr align="center">
+                  <td>
+                      <label for="nom"><b> Nom</b></label>
+                  </td>
+                  <td>
+                      <label for=""><b> Mail</b></label>
+                  </td>
+              </tr>
+              <tr align="center">
+                  <td>
+                      <input type="text" name="_nom" id="nom" size="25">
+                  </td>
+                  <td>
+                      <input type="mail" name="_mail" id="mail" size="25">
+                  </td>
+              </tr>
+              <tr>
+                  <td colspan="2">
+                      <hr>
+                  </td>
+              </tr>
+              <tr align="center">
+                  <td colspan="2">
+                      <label for="message"><b> Votre Message</b></label>
+                  </td>
+              </tr>
+              <tr align="center">
+                  <td colspan="2">
+                      <textarea class="form-control" name="_message" id="message" rows="3" cols="100"
+                          maxlength="200"></textarea>
+                  </td>
+              </tr>
+              <tr align="right">
+                  <td colspan="2">
+                      <input type="submit" value="Envoyer">
+                  </td>
+              </tr>
+
+          </tbody>
+      </table>
+      <div>
+
+      </div>
+
+  </form>
+</tr>
+<!-- Fin Contact -->
 </body>
 </html>
